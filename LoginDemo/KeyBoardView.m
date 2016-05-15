@@ -33,7 +33,7 @@
         _click = click;
         
         int i;
-        
+        NSLog(@"");
         CGFloat keyboardWidth = ScreenWidth;
         CGFloat keyboardHeight = KeyboardHeight;
         NSLog(@"%f, %f", keyboardWidth, keyboardHeight);
