@@ -57,6 +57,7 @@
 
 - (void)createSubViews
 {
+    NSLog(@"");
     UIImageView *logoView = [[UIImageView alloc] init];
     logoView.frame = CGRectMake(0, 78, 56 * __Scale, 69 * __Scale);
     logoView.centerX = ScreenWidth / 2;
