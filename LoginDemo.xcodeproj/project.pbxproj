@@ -15,6 +15,12 @@
 		191E3E6E1CD04BBF00BAD58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191E3E6C1CD04BBF00BAD58E /* LaunchScreen.storyboard */; };
 		191E3E791CD04BC000BAD58E /* LoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E3E781CD04BC000BAD58E /* LoginDemoTests.m */; };
 		191E3E841CD04BC000BAD58E /* LoginDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E3E831CD04BC000BAD58E /* LoginDemoUITests.m */; };
+		191E3E941CD04E3100BAD58E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191E3E931CD04E3100BAD58E /* MediaPlayer.framework */; };
+		191E3E971CD062F300BAD58E /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E3E961CD062F300BAD58E /* UIView+Addition.m */; };
+		DB8AF8DB1CD1D95800060200 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8AF8DA1CD1D95800060200 /* KeyBoardView.m */; };
+		DB8AF8DD1CD1D9D500060200 /* Aerial01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB8AF8DC1CD1D9D500060200 /* Aerial01.jpg */; };
+		DB8AF9281CD33F0600060200 /* KeyBoardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8AF9271CD33F0600060200 /* KeyBoardButton.m */; };
+		DB8AF9361CD88AD100060200 /* 源视频.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DB8AF9351CD88AD100060200 /* 源视频.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,16 @@
 		191E3E7F1CD04BC000BAD58E /* LoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191E3E831CD04BC000BAD58E /* LoginDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDemoUITests.m; sourceTree = "<group>"; };
 		191E3E851CD04BC000BAD58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191E3E931CD04E3100BAD58E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		191E3E951CD062F300BAD58E /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		191E3E961CD062F300BAD58E /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		DB8AF8D91CD1D95800060200 /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		DB8AF8DA1CD1D95800060200 /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
+		DB8AF8DC1CD1D9D500060200 /* Aerial01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aerial01.jpg; sourceTree = "<group>"; };
+		DB8AF9251CD3141600060200 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB8AF9261CD33F0600060200 /* KeyBoardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardButton.h; sourceTree = "<group>"; };
+		DB8AF9271CD33F0600060200 /* KeyBoardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardButton.m; sourceTree = "<group>"; };
+		DB8AF9351CD88AD100060200 /* 源视频.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "源视频.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191E3E941CD04E3100BAD58E /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 		191E3E521CD04BBF00BAD58E = {
 			isa = PBXGroup;
 			children = (
+				191E3E931CD04E3100BAD58E /* MediaPlayer.framework */,
 				191E3E5D1CD04BBF00BAD58E /* LoginDemo */,
 				191E3E771CD04BC000BAD58E /* LoginDemoTests */,
 				191E3E821CD04BC000BAD58E /* LoginDemoUITests */,
@@ -105,9 +123,17 @@
 				191E3E621CD04BBF00BAD58E /* AppDelegate.m */,
 				191E3E641CD04BBF00BAD58E /* ViewController.h */,
 				191E3E651CD04BBF00BAD58E /* ViewController.m */,
+				DB8AF8D91CD1D95800060200 /* KeyBoardView.h */,
+				DB8AF8DA1CD1D95800060200 /* KeyBoardView.m */,
+				DB8AF9261CD33F0600060200 /* KeyBoardButton.h */,
+				DB8AF9271CD33F0600060200 /* KeyBoardButton.m */,
+				DB8AF8DC1CD1D9D500060200 /* Aerial01.jpg */,
+				191E3E951CD062F300BAD58E /* UIView+Addition.h */,
+				191E3E961CD062F300BAD58E /* UIView+Addition.m */,
 				191E3E671CD04BBF00BAD58E /* Main.storyboard */,
 				191E3E6A1CD04BBF00BAD58E /* Assets.xcassets */,
 				191E3E6C1CD04BBF00BAD58E /* LaunchScreen.storyboard */,
+				DB8AF9351CD88AD100060200 /* 源视频.mp4 */,
 				191E3E6F1CD04BBF00BAD58E /* Info.plist */,
 				191E3E5E1CD04BBF00BAD58E /* Supporting Files */,
 			);
@@ -118,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				191E3E5F1CD04BBF00BAD58E /* main.m */,
+				DB8AF9251CD3141600060200 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8AF9361CD88AD100060200 /* 源视频.mp4 in Resources */,
 				191E3E6E1CD04BBF00BAD58E /* LaunchScreen.storyboard in Resources */,
 				191E3E6B1CD04BBF00BAD58E /* Assets.xcassets in Resources */,
+				DB8AF8DD1CD1D9D500060200 /* Aerial01.jpg in Resources */,
 				191E3E691CD04BBF00BAD58E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8AF9281CD33F0600060200 /* KeyBoardButton.m in Sources */,
+				191E3E971CD062F300BAD58E /* UIView+Addition.m in Sources */,
 				191E3E661CD04BBF00BAD58E /* ViewController.m in Sources */,
 				191E3E631CD04BBF00BAD58E /* AppDelegate.m in Sources */,
 				191E3E601CD04BBF00BAD58E /* main.m in Sources */,
+				DB8AF8DB1CD1D95800060200 /* KeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +447,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/maxx/Desktop/LoginDemo/LoginDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = LoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.icrcle.Qinjian.LoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szjy.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +463,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/maxx/Desktop/LoginDemo/LoginDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = LoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.icrcle.Qinjian.LoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szjy.LoginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +540,7 @@
 				191E3E8A1CD04BC000BAD58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		191E3E8B1CD04BC000BAD58E /* Build configuration list for PBXNativeTarget "LoginDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +549,7 @@
 				191E3E8D1CD04BC000BAD58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		191E3E8E1CD04BC000BAD58E /* Build configuration list for PBXNativeTarget "LoginDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +558,7 @@
 				191E3E901CD04BC000BAD58E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
